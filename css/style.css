@@ -134,10 +134,34 @@ header ul li a:hover {
 	-o-transition: border 0.5s 0.1s ease;
 	-webkit-transition: border 0.5s 0.1s ease;
 	margin-right: 24px;
-	margin-bottom: 265px;
+	margin-bottom: 200px;
 
 }
 
 .header__btn:hover {
 	border: 2px solid #888888;
+}
+
+/*Brief*/
+.brief__title {
+	float: left;
+	display: inline-block;
+	color: #464646;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 200px;
+}
+
+.brief__info {
+	margin-top: 90px;
+	color: #b7b7b7;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.brief__info > p:first-child {
+	display: inline-block;
+	margin-bottom: 30px;
 }
