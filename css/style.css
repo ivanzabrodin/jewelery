@@ -143,6 +143,11 @@ header ul li a:hover {
 }
 
 /*Brief*/
+.brief {
+	border-bottom: 1px solid #f1f1f1;
+	padding-bottom: 75px;
+}
+
 .brief__title {
 	float: left;
 	display: inline-block;
@@ -165,3 +170,60 @@ header ul li a:hover {
 	display: inline-block;
 	margin-bottom: 30px;
 }
+/*Brief*/
+
+/*How*/
+.how__title {
+	color: #464646;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.how__title:after {
+	content: "";
+	background-image: url(../img/subtitleimg.png);
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 67px;
+	left: 50%;
+	margin-top: 58px;
+	margin-left: -33px;
+	position: absolute;
+}
+
+.how__subtitle {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 300;
+	color: #c4c4c4;
+	width: 100%;
+	text-align: center;
+	margin-top: 28px;
+	margin-bottom: 65px;
+}
+
+.item__img {
+	width: 64px;
+	margin-top: 75px;
+	margin-bottom: 25px;
+}
+
+.item__title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #464646;
+	display: block;
+	width: 235px;
+	margin-bottom: 25px;
+}
+
+.item__subtitle {
+	font-size: 16px;
+	font-weight: 300;
+	color: #b7b7b7;
+}
+/*Brief*/
+
+/*Slider*/
