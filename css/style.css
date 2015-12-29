@@ -133,7 +133,7 @@ header ul li a {
 	font-size: 14px;
 	color: #ffffff;
 	text-decoration: none;
-	margin-right: 37px;
+	margin-right: 30px;
 	margin-top: 47px;
 	-moz-transition: all linear 0.5s;
 	-o-transition: all linear 0.5s;
@@ -149,7 +149,7 @@ header ul li a:hover {
 	font-family: Socialico;
 	font-size: 24px;
 	color: #ffffff;
-	margin-right: 10px;
+	margin-right: 8px;
 }
 
 .header__subtitle {
@@ -165,7 +165,7 @@ header ul li a:hover {
 	font-size: 60px;
 	font-weight: 700;
 	color: #ffffff;
-	width: 570px;
+	width: 100%;
 	text-transform: uppercase;
 	margin-top: 25px;
 }
