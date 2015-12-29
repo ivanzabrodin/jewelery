@@ -180,6 +180,10 @@ header ul li a:hover {
 /*Brief*/
 
 /*How*/
+.how {
+	position: relative;
+}
+
 .how__title {
 	color: #464646;
 	font-size: 30px;
@@ -195,7 +199,7 @@ header ul li a:hover {
 	height: 9px;
 	width: 67px;
 	left: 50%;
-	margin-top: 58px;
+	top: 58px;
 	margin-left: -33px;
 	position: absolute;
 }
@@ -398,8 +402,102 @@ header ul li a:hover {
 	font-weight: 300;
 	color: #b7b7b7;
 }
+/*Reviews*/
 
+/*Photoblog*/
+.photo {
+	padding: 100px 0;
+}
 
+.photo__img {
+	margin-top: -5px;
+}
+
+.photo__title {
+	color: #464646;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 56px;
+	margin-bottom: 43px;
+}
+
+.photo__text {
+	display: inline-block;
+	color: #b7b7b7;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+	width: 420px;
+	margin-top: 54px;
+}
+
+.photo__text-second {
+	display: inline-block;
+	color: #b7b7b7;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+	width: 420px;
+	margin-top: 54px;
+	margin-left: 40px;
+}
+/*Photoblog*/
+
+/*Footer*/
+footer {
+	padding-top: 75px;
+	padding-bottom: 55px;
+	background-color: #141414;
+}
+
+.footer__logo {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: 80px;
+}
+
+footer ul {
+	padding-left: 0;
+	margin: 0;
+}
+
+footer li {
+	list-style-type: none;
+	margin-bottom: 18px;
+}
+
+footer li a {
+	color: #474747;
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+footer li a:hover {
+	text-decoration: underline;
+}
+
+.footer__copy {
+	display: block;
+	text-align: right;
+	color: #474747;
+	font-size: 16px;
+	font-weight: 300;	
+}
+
+.footer__right {
+	display: block;
+	text-align: right;
+	color: #474747;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 5px;
+}
 
 
 
