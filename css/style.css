@@ -74,11 +74,14 @@ ul.list-inline > li {
 
 /*Grid*/
 
+
+
 /*Header*/
 header {
 	background-image: url(../img/bg-header.png);
 	background-repeat: no-repeat;
 	background-position: center 0;
+
 }
 
 .header__logo {
@@ -298,6 +301,7 @@ header ul li a:hover {
 	line-height: 25px;
 	width: 423px;
 	margin-top: 54px;
+	margin-bottom: 90px;
 }
 
 .work__text-second {
@@ -309,8 +313,91 @@ header ul li a:hover {
 	width: 423px;
 	margin-left: 45px;
 	margin-top: 54px;
+	margin-bottom: 90px;
+}
+/*Work*/
+
+/*Reviews*/
+.reviews {
+	background-color: #faf9f9;
+	padding: 60px 0 110px;
 }
 
+.reviews__title {
+	color: #464646;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 70px;
+	margin-bottom: 50px;
+}
+
+.reviews__title:after {
+	content: "";
+	background-image: url(../img/subtitleimg.png);
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 67px;
+	left: 50%;
+	margin-top: 58px;
+	margin-left: -33px;
+	position: absolute;
+}
+
+.reviews__subtitle {
+	display: inline-block;
+	color: #b7b7b7;
+	font-size: 18px;
+	font-weight: 300;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 95px;
+}
+
+.reviews__item {
+	padding-left: 65px;
+	position: relative;
+}
+
+.reviews__item-s {
+	padding-left: 65px;
+	position: relative;
+	margin-top: 100px;
+}
+
+.reviews__item__author {
+	font-size: 18px;
+	font-weight: bold;
+	color: #464646;
+	width: 100%;
+	display: inline-block;
+}
+
+.reviews__item__author:before {
+	content: "";
+	background-image: url(../img/reviews__img.png);
+	background-repeat: no-repeat;
+	height: 38px;
+	width: 38px;
+	left: 10px;
+	top: -10px;
+	position: absolute;
+}
+
+.reviews__item__job {
+	font-size: 14px;
+	font-weight: 300;
+	color: #b7b7b7;
+	width: 100%;
+	display: inline-block;
+	margin: 17px 0 19px;
+}
+
+.reviews__item__text {
+	font-size: 16px;
+	font-weight: 300;
+	color: #b7b7b7;
+}
 
 
 
