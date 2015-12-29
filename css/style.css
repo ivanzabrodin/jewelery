@@ -82,6 +82,23 @@ ul.list-inline > li {
 	width: 940px;
 }
 
+#top {
+	bottom: 0;
+	cursor: pointer;
+	display: none;
+	font-size: 150%;
+	position: fixed;
+	left: 40px;
+	bottom: 40px;
+	-moz-transition: all linear 0.5s;
+	-o-transition: all linear 0.5s;
+	-webkit-transition: all linear 0.5s;
+
+}
+
+#top:hover {
+	opacity: 0.7;
+}
 /*Grid*/
 
 
