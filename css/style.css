@@ -265,7 +265,51 @@ header ul li a:hover {
 /*Brief*/
 
 /*Slider*/
+.slider {
+	background-color: #faf9f9;
+	padding: 105px 0;
+	margin-top: 95px;
+}
 
+.slide__title {
+	display: block;
+	color: #464646;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 28px;
+}
+
+.slide__title__img {
+	display: block;
+	margin-bottom: 28px;
+}
+
+.slide__text {
+	display: block;
+	color: #b7b7b7;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 25px;
+	padding-right: 50px;
+	margin-bottom: 36px;
+}
+
+.slide__btn {
+	padding: 22px 42px;
+	background-color: #e92121;
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 3px;
+	font-weight: bold;
+	-moz-transition: all linear 0.5s;
+	-o-transition: all linear 0.5s;
+	-webkit-transition: all linear 0.5s;
+}
+
+.slide__btn:hover {
+	background-color: #c31919;
+}
 /*Slider*/
 
 /*Why*/
