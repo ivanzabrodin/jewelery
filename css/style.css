@@ -1,3 +1,13 @@
+@font-face {
+	font-family:"Socialico";
+	src:url("../fonts/Socialico.eot?") format("eot"),
+	url("../fonts/Socialico.woff") format("woff"),
+	url("../fonts/Socialico.ttf") format("truetype"),
+	url("../fonts/Socialico.svg#Socialico") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
 /*Grid*/
 .column1 {  width: 8.33%;   }
 .column2 {  width: 16.66%; }
@@ -92,6 +102,13 @@ header {
 	margin-top: 41px;
 	text-transform: uppercase;
 	text-decoration: none;
+	-moz-transition: all linear 0.5s;
+	-o-transition: all linear 0.5s;
+	-webkit-transition: all linear 0.5s;
+}
+
+.header__logo:hover {
+	color: #888888;
 }
 
 header ul li a {
@@ -99,15 +116,23 @@ header ul li a {
 	font-size: 14px;
 	color: #ffffff;
 	text-decoration: none;
-	margin-right: 43px;
+	margin-right: 37px;
 	margin-top: 47px;
-	-moz-transition: color 0.5s 0.1s ease;
-	-o-transition: color 0.5s 0.1s ease;
-	-webkit-transition: color 0.5s 0.1s ease;
+	-moz-transition: all linear 0.5s;
+	-o-transition: all linear 0.5s;
+	-webkit-transition: all linear 0.5s;
 }
 
 header ul li a:hover {
 	color: #888888;
+}
+
+.header__social {
+	display: inline-block;
+	font-family: Socialico;
+	font-size: 24px;
+	color: #ffffff;
+	margin-right: 10px;
 }
 
 .header__subtitle {
@@ -137,9 +162,9 @@ header ul li a:hover {
 	border: 2px solid #ffffff;
 	border-radius: 4px;
 	text-decoration: none;
-	-moz-transition: border 0.5s 0.1s ease;
-	-o-transition: border 0.5s 0.1s ease;
-	-webkit-transition: border 0.5s 0.1s ease;
+	-moz-transition: all linear 0.5s;
+	-o-transition: all linear 0.5s;
+	-webkit-transition: all linear 0.5s;
 	margin-right: 24px;
 	margin-bottom: 200px;
 
@@ -459,6 +484,19 @@ footer {
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-bottom: 80px;
+}
+
+.footer__social {
+	font-family: Socialico;
+	font-size: 36px;
+	color: #474747;
+	text-decoration: none;
+	margin-left: 15px;
+	transition: all linear 0.5s;
+}
+
+.footer__social:hover {
+	opacity: 0.7;
 }
 
 footer ul {
