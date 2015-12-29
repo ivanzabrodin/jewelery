@@ -290,6 +290,26 @@ header ul li a:hover {
 	margin-left: 45px;
 }
 
+.work__text {
+	display: inline-block;
+	color: #b7b7b7;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+	width: 423px;
+	margin-top: 54px;
+}
+
+.work__text-second {
+	display: inline-block;
+	color: #b7b7b7;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+	width: 423px;
+	margin-left: 45px;
+	margin-top: 54px;
+}
 
 
 
