@@ -257,13 +257,13 @@ header ul li a:hover {
 	margin-bottom: 65px;
 }
 
-.item__img {
+.how__item__img {
 	width: 64px;
 	margin-top: 75px;
 	margin-bottom: 25px;
 }
 
-.item__title {
+.how__item__title {
 	font-size: 18px;
 	font-weight: bold;
 	color: #464646;
@@ -272,14 +272,14 @@ header ul li a:hover {
 	margin-bottom: 25px;
 }
 
-.item__subtitle {
+.how__item__subtitle {
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 300;
 	color: #b7b7b7;
-	width: 300px;
+	width: auto;
 }
-/*Brief*/
+/*How*/
 
 /*Slider*/
 .slider {
@@ -358,7 +358,7 @@ header ul li a:hover {
 	font-size: 16px;
 	font-weight: 300;
 	display: inline-block;
-	width: 250px;
+	width: 230px;
 	margin-bottom: 80px;
 }
 /*Why*/
@@ -597,6 +597,9 @@ footer li a:hover {
 	font-weight: 300;
 	margin-top: 5px;
 }
+/*Footer*/
+
+
 
 
 

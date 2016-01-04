@@ -49,12 +49,12 @@
 }
 .anythingSlider .forward {
 	background-position: 0 0; 
-	right: -100px;
+	right: 17px;
 	position: absolute;
 }
 .anythingSlider .back {
 	background-position: -100px 0; 
-	left: -100px;
+	left: 0px;
 	position: absolute;
 }
 .anythingSlider .forward:hover {
